@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quadrado {
+    height: 0px;
+    width: 0px;
+    border-width: 200px;
+    border-color: green rgb(12, 112, 206) yellow red;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 1200px){
+    .quadrado{
+        width: 0px;
+        height: 0px;
+        border-color: red green rgb(12, 112, 206) yellow;
+        border-style: solid;
+    }
+
+}
